@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="javascript.js" defer></script>
+<link rel="stylesheet" href="stylesheets.css">
+<title>Furniture Page</title>
+</head>
+
+<body id="body1">
+    <div class="sa">
+        <p id="head">Furnite Store</p>
+        <br>
+        <p id="part">Choose one part of your apartment</p>
+        <div id="sl">
+                <input  type="radio" name="Furnite" id="livingroom">
+                <label class="label" for="livingroom">Livinng Room</label>
+                <br>
+                <input  type="radio" name="Furnite" id="bedroom" value="bedroom">
+                <label class="label" for="bedroom">Bedroom</label>
+                <br>
+                <input  type="radio" name="Furnite" id="kitchen" value="kitchen">
+                <label class="label" for="kitchen">Kitchen</label>
+        </div>
+                <p id="part1">Choosse an option to see description</p>
+                <br>
+                <button onclick="hideshowbutton()" id="hide">Hide/show description</button>
+                <div id="checkbox">
+                        <input type="checkbox" id="c1" value="bedcheck" name="Furnite">
+                        <label for="c1">Bed</label>
+                        <input type="checkbox" id="c2" value="dressercheck">
+                        <label for="c2">Dresser</label>
+                        <input type="checkbox" id="c3" value="nightstandcheck">
+                        <label for="c3">Nightstand</label>
+                </div>
+				<table id="table">
+					<tr>
+					  <td>
+						<img id="bed-img" src="bed1.png" alt="Bed" width="200" height="200">
+					  </td>
+					  <td>
+						<img id="dresser-img" src="dresser1.png" alt="Dresser" width="200" height="200">
+					  </td>
+					  <td>
+						<img id="nightstand-img" src="nightstand1.png" alt="Nightstand" width="200" height="200">
+					  </td>
+					</tr>
+				</table>
+                                <div id="kit1">
+                                        <p id="kit">click the button to display all kitchen kit</p>
+                                        <button id="kitbutton">The KIT</button>
+                                </div>
+        </div>
+  
+</body>
+</html>

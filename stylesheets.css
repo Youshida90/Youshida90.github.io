@@ -1,0 +1,172 @@
+/*
+linear-gradient
+sans-serif
+Poppins(google font)
+vh(viewport height)
+display:flex
+flex-direction:column
+you can use the class or the id and then add the name of the tag beside it
+name of the tag:focus
+outline
+why is the font size doesnot on every thing
+*/
+body{
+    background: linear-gradient(to right, rgb(35, 20, 51),rgb(135, 69, 182),rgb(35, 20, 51));
+    font-family: 'Poppins',sans-serif;
+}
+#form{
+    width: 300px;
+    margin: 2vh auto 0 auto;
+    padding: 20px;
+    background-color: #baafc0;
+    border-radius: 4px;
+    font-size: 12px;
+}
+h1{
+    color: #2e0e26;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Baguet Script';
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+    background-color: rgb(53, 2, 42);
+    border: none;
+    border-radius: 6px;
+}
+#form button:active{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    color: rgb(128, 0, 92);
+    background-color: #605764;
+    border: none;
+    border-radius: 6px;
+}
+ .input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+} 
+ .input input{
+    border: 2px solid #aa9898;
+    display: block;
+    outline: none;
+    font-size: 12px;
+    padding: 13px;
+    width: 90%;
+} 
+
+.input input:focus{
+    outline: 0;
+}
+.input .success input{
+    border-color: blue;
+}
+.input.error input{
+    border-color: red;
+}
+.input .error{
+    color: red;
+    font-size: 10px;
+    height: 13px;
+}
+#head{
+    color: rgb(83, 38, 10);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Baguet Script';
+}
+#body1{
+    background: linear-gradient(to right,rgb(178, 86, 0),rgb(255, 255, 2));
+}
+#part{
+    text-align:justify;
+    font-weight: bold;
+    color: rgb(36, 24, 1);
+    font-size: 160%;
+    font-family: 'Baguet Script';
+}
+#part1{
+    text-align:justify;
+    font-weight: bold;
+    color: rgb(36, 24, 1);
+    font-size: 160%;
+    font-family: 'Baguet Script';
+}
+.sa{
+    width: 300px;
+    margin: 2vh auto 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+ #hide{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+    background-color: rgb(61, 11, 30);
+    border: none;
+    border-radius: 6px;
+}
+#hide:active{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+    background-color: rgb(190, 90, 72);
+    border: none;
+    border-radius: 6px;
+}
+.label{
+    position: relative;
+    color: rgb(36, 24, 1);
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Baguet Script';
+}
+.input .d{
+    background-color: #efdeea;
+}
+  label{
+    font-weight: bold;
+  }
+  #checkbox, #table, #kit1 {
+    display: none;
+}
+.highlighted{
+    background-color: rgb(167, 46, 46);
+    padding: 16px;
+  }
+  #kitbutton{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+    background-color: rgb(61, 11, 30);
+    border: none;
+    border-radius: 6px;
+}
+#kitbutton:active{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+    background-color: rgb(190, 90, 72);
+    border: none;
+    border-radius: 6px;
+}
+#kit{
+    text-align:justify;
+    font-weight: bold;
+    color: rgb(36, 24, 1);
+    font-size: 120%;
+    font-family: 'Baguet Script';
+}

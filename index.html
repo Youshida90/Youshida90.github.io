@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script defer src="./javascript.js"></script>
+    <link rel="shortcut icon" href="https://www.vhv.rs/dpng/d/306-3060594_black-and-white-form-icon-icon-form-transparent.png">
+    <title>Form Page</title>
+</head>
+<body>
+    <div class="cont">
+        <h1>Fill out the form below</h1>
+        <br>
+        <form action="furniture.html" id="form">
+            <div class="input"><!--used for error messages in the form-->
+                <label for="username">First Name:</label>
+                <input class="d" type="text" id="FirstName" name="username" placeholder="First Name">
+                <!--used for javascript and the name is to match the label --> 
+                <div class="error"></div><!--contain the error field for this input-->
+            </div>
+            <div class="input"><!--used for error messages in the form-->
+                <label for="username">Last Name:</label>
+                <input class="d" type="text" id="LastName" name="username" placeholder="Last Name">
+                <!--used for javascript and the name is to match the label --> 
+                <div class="error"></div><!--contain the error field for this input-->
+            </div>
+            <div class="input"><!--used for error messages in the form-->
+                <label for="username">Email:</label>
+                <input  class="d" type="text" id="email" name="username" placeholder="someone@example.com">
+                <!--used for javascript and the name is to match the label --> 
+                <div class="error"></div><!--contain the error field for this input-->
+            </div>
+            <div class="input"><!--used for error messages in the form-->
+                <label for="pass">Password:</label>
+                <input class="d" type="password" id="pass" name="pass" placeholder="Enter Password">
+                <!--used for javascript and the name is to match the label --> 
+                <div class="error"></div><!--contain the error field for this input-->            
+            </div> 
+            <div class="input"><!--used for error messages in the form-->
+                <label for="pass">Confirm Password:</label>
+                <input class="d" type="password" id="confpass" name="pass" placeholder="Confirm Password">
+                <!--used for javascript and the name is to match the label --> 
+            <div class="error"></div><!--contain the error field for this input-->
+            </div>
+            <button type="submit" onclick="">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
